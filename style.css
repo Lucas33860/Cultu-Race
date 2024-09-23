@@ -102,20 +102,23 @@ body {
 }
 
 .btn {
+  height: 75px;
+  width: 200px;
+  margin-top: 500px;
   padding: 10px 15px;
-  background-color: white;
+  background-color: var(--primary);
+  color: var(--text-regular);
   border: 0;
-  border-radius: 3px;
-  font-weight: 700;
+  border-radius: 5px;
+  font-size: 35px;
   cursor: pointer;
-  &-primary {
-    color: white;
-    background-color: var(--primary);
-    &:hover {
-      background-color: var(--secondary);
-    }
-    transition: background-color 0.4s;
-  }
+}
+.btn:hover {
+  scale: 1.1;
+  background-color: var(--secondary);
+  color: white;
+  border: 0;
+  transition: background-color 0.5s, transform 1s;
 }
 
 .d1 {
