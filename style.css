@@ -104,12 +104,11 @@ body {
 .btn {
   height: 75px;
   width: 200px;
-  margin-top: 500px;
   padding: 10px 15px;
   background-color: var(--primary);
   color: var(--text-regular);
   border: 0;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 35px;
   cursor: pointer;
 }
@@ -152,4 +151,24 @@ header {
   background-image: url("images/background.png");
   background-size: cover;
   background-position: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+  border-radius: 0px 15px 15px 0px;
+  background: #DEDEDE;
+}
+
+input[type="text"]:focus {
+  border-color: #afafaf;
+  outline: none;
+  
+}
+
+label {
+  padding: 8.5px;
+  border-radius: 15px 0px 0px 15px;
+  background: #CE472F;
 }
