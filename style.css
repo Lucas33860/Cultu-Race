@@ -89,9 +89,30 @@ body {
   margin: 20px;
 }
 
-.mb-20 {
+.mtop-20 {
+  margin-top: 20px;
+}
+
+.mtop-40 {
+  margin-top: 40px;
+}
+
+.mtop-60 {
+  margin-top: 60px;
+}
+
+.mbot-20 {
   margin-bottom: 20px;
 }
+
+.mbot-40 {
+  margin-bottom: 40px;
+}
+
+.mbot-60 {
+  margin-bottom: 60px;
+}
+
 
 .pr-100 {
   padding-right: 200px;
@@ -171,4 +192,8 @@ label {
   padding: 8.5px;
   border-radius: 15px 0px 0px 15px;
   background: #CE472F; 
+}
+
+.objectif{
+  font-size: 175%;
 }
