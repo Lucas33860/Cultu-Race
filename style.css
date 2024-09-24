@@ -150,7 +150,7 @@ body {
 }
 
 .logo {
-  width: 250px;
+  width: 350px;
 }
 
 header {
@@ -175,9 +175,9 @@ header {
 }
 
 input[type="text"] {
-  padding: 10px;
+  padding: 18px;
   border: 1px solid #ccc;
-  width: 200px;
+  width: 300px;
   border-radius: 0px 15px 15px 0px;
   background: #DEDEDE;
 }
@@ -192,6 +192,7 @@ label {
   padding: 8.5px;
   border-radius: 15px 0px 0px 15px;
   background: #CE472F; 
+  font-size: 180%;
 }
 
 .objectif{
