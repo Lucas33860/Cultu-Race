@@ -12,14 +12,14 @@
         const selectedAnswer = document.querySelector(
           'input[name="q1"]:checked'
         );
-        if (selectedAnswer && selectedAnswer.value === "paris") {
+        if (selectedAnswer && selectedAnswer.value === "rep1") {
           document.querySelector("form").style.display = "none";
           document.querySelector("#result").textContent = "Bravo !";
           setTimeout(function () {
-            window.location.href = "suite.html";
+            window.location.href = "Wikipage2.html";
           }, 500);
         } else {
-          window.location.href = "../";
+          window.location.href = "Wikipage.html";
         }
       }
     </script>
@@ -27,12 +27,12 @@
   <body class="QCM">
     <form onsubmit="checkAnswer(event)">
       <fieldset>
-        <legend>Question 1</legend>
-        <p>Quelle est la capitale de la France ?</p>
-        <input type="radio" id="paris" name="q1" value="paris" />
-        <label for="paris">Paris</label><br />
-        <input type="radio" id="lyon" name="q1" value="lyon" />
-        <label for="lyon">Lyon</label>
+        <legend>Quiz numéro 1</legend>
+        <p>Quand a été fondé Wikipédia</p>
+        <input type="radio" id="rep1" name="q1" value="rep1" />
+        <label for="rep1">15 janvier 2001</label><br />
+        <input type="radio" id="rep2" name="q1" value="rep2" />
+        <label for="rep2">27 Aout 2002</label>
       </fieldset>
       <br />
       <input type="submit" value="Soumettre" />
