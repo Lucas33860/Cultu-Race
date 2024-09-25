@@ -153,6 +153,10 @@ body {
   width: 350px;
 }
 
+.logo-header{
+  width: 150px;
+}
+
 header {
   background-color: var(--primary);
   color: white;
