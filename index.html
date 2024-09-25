@@ -17,7 +17,7 @@
             <label for="pseudo">Your name:</label>
           </div>
           <div class=" d-flex flex-justify-content-center flex-align-items-center">
-          <input type="text" id="pseudo" name="pseudo" placeholder="Enter your name">
+            <input type="text" id="pseudo" name="pseudo" placeholder="Enter your name">
           </div>
         </div>
 
@@ -26,8 +26,27 @@
           <p class="objectif">Your goal :</p>
         </div>
 
-        <button class="btn">Start</button>
+        <button class="btn" onclick="showPseudo()">Start</button>
+
+        <div id="pseudo-display" class="mtop-20" style="display: none;">
+          <p>Welcome : <span id="display-name"></span></p>
+        </div>
+
       </div>
     </section>
+
+    <script>
+      function showPseudo() {
+        var pseudo = document.getElementById('pseudo').value;
+
+        if (pseudo) {
+          document.getElementById('display-name').textContent = pseudo;
+
+          document.getElementById('pseudo-display').style.display = 'block';
+        } else {
+          alert("Please enter a pseudo");
+        }
+      }
+    </script>
   </body>
 </html>

@@ -179,7 +179,7 @@ header {
 }
 
 input[type="text"] {
-  padding: 18px;
+  padding: 16px;
   border: 1px solid #ccc;
   width: 300px;
   border-radius: 0px 15px 15px 0px;
@@ -196,7 +196,7 @@ label {
   padding: 8.5px;
   border-radius: 15px 0px 0px 15px;
   background: #CE472F; 
-  font-size: 180%;
+  font-size: 160%;
 }
 
 .objectif{
