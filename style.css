@@ -226,3 +226,34 @@ label {
   margin: 0 .25rem;
   content: "→";
 }
+
+
+/* Styles pour le conteneur principal */
+main {
+  margin-top: 100px; 
+  margin-left: 200px; 
+  margin-right: 200px; 
+}
+
+.content  {
+  margin-top: 40px; 
+}
+
+/* Styles pour l'image centrale */
+.article-image {
+  text-align: center; 
+  margin: 20px 0; 
+}
+
+.central-image {
+  max-width: 80%; 
+  height: 400px; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+/* Titre  */
+h1 {
+  padding: 50px;
+  text-align: center;
+  font-size: 60px;
+}
