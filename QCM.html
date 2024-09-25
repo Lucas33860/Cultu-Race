@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="form.css" />
     <script>
       function checkAnswer(event) {
-        reponse = false;
         event.preventDefault();
         const selectedAnswer = document.querySelector(
           'input[name="q1"]:checked'
         );
         if (selectedAnswer && selectedAnswer.value === "paris") {
           document.querySelector("form").style.display = "none";
-          document.querySelector("#result").textContent = "Bravo";
-          reponse = true;
+          document.querySelector("#result").textContent = "Bravo !";
+          setTimeout(function () {
+            window.location.href = "suite.html";
+          }, 500);
         } else {
-          alert("Mauvaise réponse, essayez encore.");
+          window.location.href = "../";
         }
       }
     </script>

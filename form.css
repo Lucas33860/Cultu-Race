@@ -8,12 +8,13 @@
   align-items: center;
   height: 100vh;
 }
+
 form {
   background-color: #fff;
-  padding: 20px;
+  padding: 40px; /* Augmenter le padding */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 500px; /* Augmenter la largeur */
 }
 
 fieldset {
@@ -23,12 +24,12 @@ fieldset {
 }
 
 legend {
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  font-size: 1.5em; /* Augmenter la taille de la police */
+  margin-bottom: 20px; /* Augmenter la marge inférieure */
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 20px; /* Augmenter la marge inférieure */
 }
 
 input[type="radio"] {
@@ -43,10 +44,10 @@ input[type="submit"] {
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Augmenter le padding */
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.2em; /* Augmenter la taille de la police */
 }
 
 input[type="submit"]:hover {
