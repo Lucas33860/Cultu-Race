@@ -114,7 +114,7 @@ $articles = [
     <br> Mais elle apparaît au cinéma dans la science-fiction comme le film ‘Le voyage dans la Lune’.",
         "paragraphe6" => "",
         "picture" => "images/imagesArticles/imgKhonsou.png"
-    ]
+    ],
     [
         "mot" => "Egypte",
         "def" => "Pays arabe transcontinental se trouvant en Afrique du Nord-Est. La surface du pays est largement recouverte par le Sahara et la population est fortement concentrée sur les rives du Nil.",
@@ -125,7 +125,7 @@ $articles = [
         "paragraphe5" => "Aujourd'hui, l'Égypte est gouvernée par un régime autoritaire sous Abdel Fattah al-Sissi, avec des défis persistants tels que l'autoritarisme, les tensions sociales, et les pressions économiques. Malgré cela, le pays reste un centre culturel et historique majeur, avec une influence considérable dans le monde arabe et au-delà.",
         "paragraphe6" => "En termes de religion, l'Égypte est majoritairement musulmane sunnite avec une minorité chrétienne copte significative. Les relations entre les communautés religieuses peuvent parfois être tendues, mais elles font partie de l'identité complexe et multiculturelle de l'Égypte contemporaine. Les divinités égyptiennes occupaient une place centrale dans la vie quotidienne et spirituelle de l'Égypte antique, chaque dieu ou déesse ayant un rôle spécifique dans le maintien de l'ordre cosmique et terrestre. Parmi ces divinités, Khonsou et Maât se distinguent par leurs fonctions essentielles.",
         "picture" => "images/imagesArticles/imgEgypte.png"
-    ]
+    ],
     [
         "mot" => "Sakazuki",
         "def" => "Le Sakazuki est la cérémonie d'intronisation de tous les aspirants qui entre chez les Yakuza",
@@ -183,6 +183,17 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
             "picture" => "images/imagesArticles/imgFordisme.jpg"
    
             ],
+            [
+                "mot" => "voiture",
+                "def" => "Une automobile est un véhicule motorisé destiné au transport terrestre de personnes et de leurs bagages.",
+                'paragraphe1' => "Une automobile (simplification historique de l'expression « voiture légère automobile ») est un véhicule à roues, motorisé, destiné au transport terrestre de quelques personnes et de leurs bagages. L'abréviation populaire « voiture » est assez courante, bien que ce terme désigne de nombreux types de véhicules qui ne sont pas tous motorisés.",
+                'paragraphe2' => "La construction automobile est un secteur économique important pour les pays possédant des constructeurs ou des sites d'assemblage. Son industrie a été l'un des secteurs les plus importants et les plus influents depuis le début du XXe siècle.",
+                'paragraphe3' => "L'automobile est un moyen de transport privé parmi les plus utilisés au monde et le plus utilisé en France. Sa capacité est généralement de deux à cinq personnes, mais peut varier de une à neuf places.",
+                'paragraphe4' => "Pour parler d'un véhicule de tourisme, les termes « automobiles » et « voiture » peuvent être utilisés, toutefois, selon la réglementation du secteur, des définitions parfois différentes ont été utilisées, notamment dans la convention de Vienne sur la circulation routière. Dans les accords internationaux, la catégorie de véhicule qui se rapproche le plus de la voiture est la catégorie M1.",
+                'paragraphe5' => "Le terme « véhicule automobile » est plus large que le terme « voiture automobile », il couvre l'ensemble des véhicules motorisés d'au moins quatre roues. Ainsi, dès 1956, Chapelain note que « De par leur destination, les véhicules automobiles sont classés en : voitures de tourisme ; véhicules utilitaires ; véhicules spéciaux. »",
+                'paragraphe6' => "En raison de sa large diffusion et de son usage dans les milieux les plus variés, la voiture automobile est aujourd'hui appelée par de nombreux noms familiers, comme « auto », « bagnole », ou « char » en Amérique du Nord francophone, et argotiques, comme « tacot », « caisse », « tire », « guimbarde », « chignole », « charrette » en Europe, ainsi que « minoune » au Canada. L'usage limite l'emploi du terme automobile aux véhicules possédant quatre roues, ou plus rarement trois ou six roues, de dimensions inférieures à celle des autobus et des camions, mais englobe parfois les camionnettes. Bien qu'étant des « véhicules automobiles », les motocyclettes ne sont pas habituellement classées dans cette catégorie.",
+                'picture' => "images/imagesArticles/imgVoiture.png"
+            ],
     
     
     // Ajoutez d'autres articles ici si nécessaire
@@ -203,15 +214,22 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
 
 // Insertion des articles dans la base de données
 foreach ($articles as $article) {
-    // Appel de la fonction sql_insert pour insérer l'article
-    $lastId = sql_insert('Article', 'mot, def, paragraphe1, paragraphe2, paragraphe3, paragraphe4, paragraphe5, paragraphe6, picture', 
-        "'" . $article['mot'] . "', '" . $article['def'] . "', '" . $article['paragraphe1'] . "', '" . $article['paragraphe2'] . "', '" . $article['paragraphe3'] . "', '" . $article['paragraphe4'] . "', '" . $article['paragraphe5'] . "', '" . $article['paragraphe6'] . "', '" . $article['picture'] . "'");
+    // Vérifier si l'article existe déjà dans la base de données
+    $existingArticle = sql_select('Article', '*', "mot = '" . $article['mot'] . "'");
+    
+    // Si l'article n'existe pas, l'insérer
+    if (!$existingArticle) {
+        $lastId = sql_insert('Article', 'mot, def, paragraphe1, paragraphe2, paragraphe3, paragraphe4, paragraphe5, paragraphe6, picture', 
+            "'" . sql_escape($article['mot']) . "', '" . sql_escape($article['def']) . "', '" . sql_escape($article['paragraphe1']) . "', '" . sql_escape($article['paragraphe2']) . "', '" . sql_escape($article['paragraphe3']) . "', '" . sql_escape($article['paragraphe4']) . "', '" . sql_escape($article['paragraphe5']) . "', '" . sql_escape($article['paragraphe6']) . "', '" . sql_escape($article['picture']) . "'");
 
-    // Optionnel : Vérifiez si l'insertion a réussi
-    if ($lastId) {
-        echo "L'article '{$article['mot']}' a été inséré avec succès avec l'ID: $lastId<br>";
+        // Optionnel : Vérifiez si l'insertion a réussi
+        if ($lastId) {
+            echo "L'article '{$article['mot']}' a été inséré avec succès avec l'ID: $lastId<br>";
+        } else {
+            echo "Erreur lors de l'insertion de l'article '{$article['mot']}'.<br>";
+        }
     } else {
-        echo "Erreur lors de l'insertion de l'article '{$article['mot']}'.<br>";
+        echo "L'article '{$article['mot']}' existe déjà dans la base de données.<br>";
     }
 }
 
