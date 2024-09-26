@@ -186,7 +186,20 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
     
     
     // Ajoutez d'autres articles ici si nécessaire
+    [
+        'mot' => 'Netflix',
+        'def' => 'L’un des pionniers du streaming',
+        'paragraphe1' => 'Netflix est l’un des pionniers du streaming.',
+        'paragraphe2' => 'Il propose une large bibliothèque de films et séries.',
+        'paragraphe3' => 'Les utilisateurs peuvent binge-watch des saisons entières.',
+        'paragraphe4' => 'Netflix produit également ses propres contenus originaux.',
+        'paragraphe5' => 'Les plans d’abonnement varient en fonction de la qualité.',
+        'paragraphe6' => 'Des options hors ligne sont disponibles pour les abonnés.',
+        'picture' => 'images/imagesArticles/imgNetflix.png'
+    ],
 ];
+
+
 
 // Insertion des articles dans la base de données
 foreach ($articles as $article) {
