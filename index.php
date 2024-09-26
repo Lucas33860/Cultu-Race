@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cultu'Race</title>
+    <title></title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -45,7 +45,7 @@
             showPseudo();
             var pseudo = document.getElementById("pseudo").value;
             if (pseudo) {
-              window.location.href = "Wikipage.html";
+              window.location.href = "article.php?mot=" + "Karma";
             }
           }
         </script>
