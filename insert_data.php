@@ -259,13 +259,8 @@ foreach ($articles as $article) {
 
         // Optionnel : Vérifiez si l'insertion a réussi
         if ($lastId) {
-            echo "L'article '{$article['mot']}' a été inséré avec succès avec l'ID: $lastId<br>";
         } else {
-            echo "Erreur lors de l'insertion de l'article '{$article['mot']}'.<br>";
         }
     } else {
-        echo "L'article '{$article['mot']}' existe déjà dans la base de données.<br>";
     }
 }
-
-echo "Tous les articles ont été insérés avec succès.";

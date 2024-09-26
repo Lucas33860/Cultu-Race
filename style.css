@@ -157,6 +157,25 @@ body {
   cursor: pointer;
 }
 
+.btn-check {
+  height: 55px;
+  width: 150px;
+  padding: 10px 15px;
+  background-color: var(--secondary);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-check:hover {
+  background-color: white;
+  color: var(--text-regular);
+  border: 0;
+  transition: background-color 0.5s, transform 1s;
+}
+
 .btn-header {
   height: auto;
   width: 300%;
@@ -212,6 +231,7 @@ header {
 
 .target {
   font-size: 250%;
+  padding-left: 30px;
 }
 
 .background-start {
@@ -285,6 +305,14 @@ main {
 .article-image {
   text-align: center;
   margin: 20px 0;
+}
+
+.definition{
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%;
+  float: left;
+  margin-left: 50px;
 }
 
 .central-image {
