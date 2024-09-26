@@ -100,7 +100,6 @@ $articles = [
         "paragraphe3" => "Khonsou, divinité égyptienne, est souvent représenté comme un enfant pour symboliser sa jeunesse et sa pureté, avec une tresse sur le côté de sa tête, un motif typique des enfants royaux dans l'art égyptien. Symbolisant son innocence et son héritage divin, indiquant sa croissance spirituelle ou physique.
     
     <br> Il peut également apparaître sous la forme d'un homme avec une tête de faucon, représentant son rôle céleste et ses qualités de vigilance et d'agilité.",
-
         "paragraphe4" => "Mythologies Lunaires & Civilisations ",
         "paragraphe5" => "Mésopotamie : Sîn est la divinité de la lune, symbolisant le temps et les rythmes agricoles.
     <br> 
