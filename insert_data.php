@@ -15,7 +15,7 @@ $articles = [
         'paragraphe4' => "En résumé, la vision occidentale et la vision orientale sont fortement différentes. Le Karma signifie que chaque action a des conséquences, mais dans sa forme la plus profonde, il est un principe spirituel lié à la réincarnation et à la quête de la libération.",
         'paragraphe5' => "",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgKarma.jpg"
+        'picture' => "images/imgArticles/imgKarma.jpg"
     ],
     [
         'mot' => "Inde",
@@ -26,7 +26,7 @@ $articles = [
         'paragraphe4' => "En Inde, une grande variété de véhicules est utilisée pour répondre aux besoins de transport dans des contextes urbains et ruraux. Les automobiles, notamment les berlines et les utilitaires, sont omniprésentes dans les grandes villes, mais les motos et scooters dominent en termes de popularité en raison de leur accessibilité et de leur capacité à se faufiler dans le trafic dense. Les autorickshaws, communément appelés tuk-tuks, sont également très répandus, servant de taxis bon marché et pratiques pour les trajets courts. Ces véhicules à trois roues sont particulièrement adaptés aux rues étroites et sinueuses, où les voitures ne peuvent pas toujours accéder. Dans les zones rurales, les charrettes tirées par des animaux, telles que les chars à bœufs, restent courantes pour le transport de marchandises. Parallèlement, les trains, les bus et les véhicules tout-terrain jouent un rôle essentiel dans les longs trajets interurbains. Enfin, le vélo reste un moyen de transport privilégié dans certaines régions, aussi bien pour les déplacements personnels que pour le transport de marchandises.",
         'paragraphe5' => "",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgInde.svg"
+        'picture' => "images/imgArticles/imgInde.svg"
     ],
     [
         'mot' => "tuk-tuks",
@@ -37,7 +37,7 @@ $articles = [
         'paragraphe4' => "D'anciennes variantes cohabitent toujours avec le tuk-tuk actuel, notamment au Cambodge où le tuk-tuk traditionnel local ou moto-remork se compose d'une motocyclette légère à cadre en 'V' indépendante, similaire aux Honda Super Cub et Honda Innova, à l'arrière de laquelle s'attache un type de carriole à deux roues qui offre deux banquettes se faisant face, pour deux à trois personnes chacune. Ces tuk-tuks traditionnels disparaissent aux profit des autorickshaws indiens devenus plus populaires au Cambodge. De la même façon, des tuk-tuk au Laos et aux Philippines sont constitués d'un système rappelant le side-car, c'est-à-dire une motocyclette à laquelle une charrette aménagée en banquette à deux places est fixée latéralement.",
         'paragraphe5' => "Ces tricycles, taxis bon marché, sillonnent la plupart des villes des pays et zones touristiques du Sud. Version motorisée du rickshaw indien, le tuk-tuk existe sous ce nom (rickshaw) dans plusieurs pays d'Asie du Sud-Est. Au Cambodge, il peut-être appelé ainsi (ទុកទុក), et plus rarement reumok (រ៉ឺម៉ក), qui vient du mot français « remorque », ou encore kangbei (កង់បី) qui signifie « trois roues » ; le nom « tuk-tuk », bien qu'utilisé par la majorité des touristes et expatriés, est déconseillé par le ministère cambodgien du Tourisme qui lui préfère ainsi le mot reumok). Au Laos, on le nomme sam-lo (trois roues). Au ViêtNam, on emploie au choix rickshaw ou tuk-tuk. On en trouve également en Inde, au Sri Lanka, au Kenya, au Guatemala, au Pérou, en Egypte, à Madagascar, au Soudan, en Éthiopie et même dans des pays occidentaux de manière moins courante comme le Royaume-Uni ou la France, où ils sont moins utilisés comme taxis que comme transport individuel pour circuits touristiques en ville(se déplaçant d'un monument à un autre).",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgTuktuk.jpg"
+        'picture' => "images/imgArticles/imgTuktuk.jpg"
     ],
     [
         'mot' => "Maât",
@@ -50,7 +50,7 @@ $articles = [
         'paragraphe4' => "Comme la maât intégrait l'Homme dans la société humaine, elle l'intègre dans la société divine. Maât devient ainsi une condition sine qua non, non seulement pour réussir sa vie terrestre, pour laisser une trace dans la mémoire collective et donc être quelqu'un pour qui on continue à agir sur terre, mais également pour passer l'examen de la balance du jugement devant Osiris. En effet, Maât a pour symbole la plume d’autruche car c’est la seule plume d’oiseau qui soit de largeur égale de part et d’autre de son axe central, ce qui suggère l’équité, l’harmonie. Elle est utilisée lors du rite de passage de la part immortelle de l’Homme dans l’au-delà : on dépose le cœur sur un plateau de la balance, puis une plume d’autruche sur l’autre. S’il y a équilibre, le défunt est apte à être introduit dans le monde des dieux.",
         'paragraphe5' => "",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgMaat.svg"
+        'picture' => "images/imgArticles/imgMaat.svg"
     ],
     [
         'mot' => "paradoxe du grand-père",
@@ -61,7 +61,7 @@ $articles = [
         'paragraphe4' => "Cependant, dans l’univers d’origine, rien n’aurait changé, et le voyageur continuerait d’exister, évitant ainsi toute contradiction logique. Ce concept de multivers permet de contourner les paradoxes en introduisant l’idée que chaque action dans le passé n’affecte pas directement la ligne temporelle d’origine mais crée plutôt une nouvelle branche de réalité. Ainsi, les voyages dans le temps ne modifieraient pas notre présent, mais ouvriraient la porte à des réalités alternatives infinies. Cette idée est souvent explorée dans la science-fiction moderne, mais elle est également prise au sérieux par certains physiciens théoriciens, notamment dans le cadre de la mécanique quantique.",
         'paragraphe5' => "Ces récits, au-delà du simple divertissement, suscitent des réflexions profondes sur la causalité, le libre arbitre et l’existence. Ils nous plongent dans un vertige existentiel où l’identité, le temps et l’histoire se mêlent, laissant les questions ouvertes : peut-on vraiment changer le passé sans bouleverser le présent ? Et si oui, à quel prix ?",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgParadoxeGrandPere.png"
+        'picture' => "images/imgArticles/imgParadoxeGrandPere.png"
     ],
     [
         'mot' => "Pays",
@@ -72,7 +72,7 @@ $articles = [
         'paragraphe4' => "Il peut avoir une structure unitaire (subdivisions toutes égales et homologues comme les départements français) ou bien fédérale (subdivisions de tailles et de statuts variables, comme dans le cas des cantons suisses). L’Inde est un pays fédéral, tandis que le Japon et l’Egypte adoptent des structures plus unitaires.",
         'paragraphe5' => "Indépendamment de sa constitution, de sa législation et de sa structure territoriale, un pays peut avoir un fonctionnement politique pluraliste avec plusieurs partis et des élections à candidats multiples, ou bien autocratique avec un seul parti et des élections dont les résultats sont conformes aux directives du chef de l’État. L’Inde, avec son système démocratique, se distingue de l’Egypte qui, bien qu’ayant connu des périodes de pluralisme, a souvent été marquée par des régimes autoritaires. Le Japon, en tant que démocratie parlementaire, trouve un équilibre entre tradition et modernité dans son système politique.",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgPays.png"
+        'picture' => "images/imgArticles/imgPays.png"
     ],
     [
         'mot' => "Toyotisme",
@@ -88,7 +88,7 @@ $articles = [
         'paragraphe4' => "Le toyotisme serait le modèle idéal de l’organisation de l’entreprise du point de vue de la productivité. Mais sa mise en place au Japon a pris plusieurs dizaines d’années, et n’a probablement été possible que parce que le modèle social japonais pouvait l’accepter (« Au Japon, les syndicats de l’industrie automobile sont intégrés à l’entreprise à laquelle ils appartiennent, représentant uniquement les travailleurs réguliers, défendant surtout les intérêts de cette entreprise. »).",
         'paragraphe5' => "Certaines multinationales ont cependant décidé d’appliquer quelques concepts toyotistes tels que le juste-à-temps, l’autonomisation des machines, le kaizen, le kanban ou le cercle de qualité. Cette nouvelle forme d’organisation, basée sur les compétences et la qualification des ressources humaines, marque la fin du taylorisme et du fordisme à l’état pur.",
         'paragraphe6' => "",
-        'picture' => "images/imagesArticles/imgToyotisme.png"
+        'picture' => "images/imgArticles/imgToyotisme.png"
     ],
     [
         "mot" => "Khonsou",
@@ -112,7 +112,7 @@ $articles = [
     <br> La lune est généralement perçue comme une force qui influence la nature et les rythmes humains.
     <br> Mais elle apparaît au cinéma dans la science-fiction comme le film ‘Le voyage dans la Lune’.",
         "paragraphe6" => "",
-        "picture" => "images/imagesArticles/imgN.png"
+        "picture" => "images/imgArticles/imgN.png"
     ],
     [
         "mot" => "Egypte",
@@ -123,7 +123,7 @@ $articles = [
         "paragraphe4" => "Au XXe siècle, l'Egypte a été un acteur clé du nationalisme arabe sous la présidence de Gamal Abdel Nasser, qui a conduit à des réformes sociales et économiques significatives. Le pays a également connu des périodes d'instabilité, de guerre, et de changement de régime, notamment avec la révolution de 2011 qui a mené à la destitution d'Hosni Moubarak, et l'instabilité politique qui a suivi.",
         "paragraphe5" => "Aujourd'hui, l'Egypte est gouvernée par un régime autoritaire sous Abdel Fattah al-Sissi, avec des défis persistants tels que l'autoritarisme, les tensions sociales, et les pressions économiques. Malgré cela, le pays reste un centre culturel et historique majeur, avec une influence considérable dans le monde arabe et au-delà.",
         "paragraphe6" => "En termes de religion, l'Egypte est majoritairement musulmane sunnite avec une minorité chrétienne copte significative. Les relations entre les communautés religieuses peuvent parfois être tendues, mais elles font partie de l'identité complexe et multiculturelle de l'Egypte contemporaine. Les divinités égyptiennes occupaient une place centrale dans la vie quotidienne et spirituelle de l'Egypte antique, chaque dieu ou déesse ayant un rôle spécifique dans le maintien de l'ordre cosmique et terrestre. Parmi ces divinités, Khonsou et Maât se distinguent par leurs fonctions essentielles.",
-        "picture" => "images/imagesArticles/imgEgypte.png"
+        "picture" => "images/imgArticles/imgEgypte.png"
     ],
     [
         "mot" => "Sakazuki",
@@ -144,7 +144,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
 ",
         "paragraphe6" => "Après la cérémonie extrêmement codifiée, l'apprenti yakuza ne doit pas décevoir. En jurant fidélité au clan, il lui est nécessaire de trouver un travail et reverser les bénéfices à l'organisation. Au moindre écart, le yakuza pratique le yubitsume, ou l'ablation du petit doigt. Moins pratiqué qu'auparavant, l'amputation des doigts reste un moyen de prouver l'assujettissement au chef, et l'encaissement à la souffrance.
 ",
-        "picture" => "images/imagesArticles/imgSakazuki.jpg"
+        "picture" => "images/imgArticles/imgSakazuki.jpg"
     ],
     [
         "mot" => "Japon",
@@ -155,7 +155,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "Le Japon est également connu pour sa cuisine raffinée, notamment les sushis, sashimis, tempuras et ramen, qui ont conquis le monde entier. Le régime alimentaire japonais, souvent considéré comme l'un des plus sains au monde, repose sur des ingrédients frais et de saison.",
         "paragraphe5" => "Les Yakuza, ou la mafia japonaise, représentent un élément incontournable de la culture criminelle du pays. Organisés en clans, ils sont souvent associés au crime organisé, allant du trafic de drogue au blanchiment d'argent, en passant par le jeu illégal et la prostitution.",
         "paragraphe6" => "Le Japon est également un pays de traditions artistiques riches et variées. La calligraphie japonaise, ou 'shodō', ainsi que l'art de la cérémonie du thé, le théâtre Noh et Kabuki, et la poésie haïku, sont des exemples de cette diversité culturelle.",
-        "picture" => "images/imagesArticles/imgJapon.jpg"
+        "picture" => "images/imgArticles/imgJapon.jpg"
     ],
 
     [
@@ -167,7 +167,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "Cependant, les Yakuza sont également impliqués dans des activités criminelles graves, ce qui a conduit le gouvernement japonais à prendre des mesures pour les combattre. En 1992, le gouvernement a adopté la loi sur le contrôle des organisations criminelles, qui vise à réduire l'influence des Yakuza et à les empêcher de mener des activités illégales.",
         "paragraphe5" => "Les Yakuza ont des cérémonies importantes comme le Sakazuki qui est un rituel symbolique central dans la culture des Yakuza, marquant l'établissement de liens formels au sein de l'organisation. Inspirée des traditions japonaises, cette cérémonie consiste en un échange de coupes de saké entre deux personnes, symbolisant un pacte de loyauté et de fraternité.",
         "paragraphe6" => "Les Yakuza sont également connus pour leur discipline et leur dévouement envers leur clan. Ils sont prêts à sacrifier leur vie pour leur chef et à suivre ses ordres sans poser de questions. Malgré leur réputation de violence et de criminalité, les Yakuza sont également respectés pour leur sens de l'honneur et leur engagement envers leurs traditions.",
-        "picture" => "images/imagesArticles/imgYakuza.jpg"
+        "picture" => "images/imgArticles/imgYakuza.jpg"
 
     ],
     [
@@ -179,7 +179,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         'paragraphe4' => "Pour parler d'un véhicule de tourisme, les termes « automobiles » et « voiture » peuvent être utilisés, toutefois, selon la réglementation du secteur, des définitions parfois différentes ont été utilisées, notamment dans la convention de Vienne sur la circulation routière. Dans les accords internationaux, la catégorie de véhicule qui se rapproche le plus de la voiture est la catégorie M1.",
         'paragraphe5' => "Le terme « véhicule automobile » est plus large que le terme « voiture automobile », il couvre l'ensemble des véhicules motorisés d'au moins quatre roues. Ainsi, dès 1956, Chapelain note que « De par leur destination, les véhicules automobiles sont classés en : voitures de tourisme ; véhicules utilitaires ; véhicules spéciaux. »",
         'paragraphe6' => "En raison de sa large diffusion et de son usage dans les milieux les plus variés, la voiture automobile est aujourd'hui appelée par de nombreux noms familiers, comme « auto », « bagnole », ou « char » en Amérique du Nord francophone, et argotiques, comme « tacot », « caisse », « tire », « guimbarde », « chignole », « charrette » en Europe, ainsi que « minoune » au Canada. L'usage limite l'emploi du terme automobile aux véhicules possédant quatre roues, ou plus rarement trois ou six roues, de dimensions inférieures à celle des autobus et des camions, mais englobe parfois les camionnettes. Bien qu'étant des « véhicules automobiles », les motocyclettes ne sont pas habituellement classées dans cette catégorie.",
-        'picture' => "images/imagesArticles/imgVoiture.png"
+        'picture' => "images/imgArticles/imgVoiture.png"
     ],
     [
         "mot" => "Fordisme",
@@ -190,7 +190,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
          "paragraphe4" => "Ford ne se soucie guère des conséquences humaines, car les remplaçants ne manquent pas. Attirés par des salaires sensiblement plus élevés que dans d'autres branches, de nombreux travailleurs affluent à Detroit. Le temps de fabrication par voiture diminue à seulement 1h30. Grâce à ces gains obtenus de productivité, Ford affiche des bénéfices records et peut se permettre d'augmenter les salaires. Lorsque Ford annonce qu'il double la rémunération, atteignant le niveau inouï de 5 dollars par jour, l'usine est assiégée par des candidats.",
          "paragraphe5" => "Enfin, suite à son succès, Ford décide de construire une nouvelle usine : celle de ses rêves. Elle sera la plus grande du monde, employant 80 000 personnes. L'usine de la Rivière Rouge reçoit des milliers de tonnes de charbon, de fer et de sable d'un côté, tandis que de l'autre côté, 2 500 Ford T en sortent chaque jour. Le secret du succès de Ford repose sur l'afflux ininterrompu de main-d'œuvre, attirée à Detroit par la promesse de bons salaires. Les termes du contrat sont clairs : si les ouvriers travaillent vite et qu'ils suivent des ordres, alors ils seront bien payés.",
          "paragraphe6" => "Ford met en avant les avantages matériels offerts à ses ouvriers, les encourageant même à épargner pour acheter leur propre Ford T. Bien que révolutionnaire, le fordisme sera plus tard critiqué pour son manque de flexibilité, menant à l'émergence du toyotisme, un modèle plus agile et centré sur l'amélioration continue, mieux adapté aux marchés en évolution.",
-         "picture" => "images/imagesArticles/imgFordisme.jpg"],
+         "picture" => "images/imgArticles/imgFordisme.jpg"],
 
     // Ajoutez d'autres articles ici si nécessaire
     [
@@ -202,7 +202,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         'paragraphe4' => 'Netflix produit également ses propres contenus originaux.',
         'paragraphe5' => 'Les plans d’abonnement varient en fonction de la qualité.',
         'paragraphe6' => 'Des options hors ligne sont disponibles pour les abonnés.',
-        'picture' => 'images/imagesArticles/imgNetflix.png'
+        'picture' => 'images/imgArticles/imgNetflix.png'
     ],
     [
         "mot" => "divinité égyptienne",
@@ -213,7 +213,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "D'autres divinités, telles qu'Anubis, le dieu des morts, et Bastet, la déesse de la protection, de la maternité et de la joie, enrichissent encore ce panthéon. Anubis, souvent représenté avec une tête de chacal, était chargé de la préservation des corps et de l'accompagnement des âmes dans l'au-delà. Bastet, quant à elle, était représentée comme une femme avec une tête de lionne ou de chat, symbolisant à la fois la douceur et la férocité, soulignant le rôle des femmes dans la société égyptienne.",
         "paragraphe5" => "Les dieux Geb, le dieu de la terre, et Horus, le dieu du ciel, sont également des figures centrales de la mythologie égyptienne. Geb et Nut (la déesse du ciel) étaient souvent représentés comme un couple complémentaire, représentant la terre et le ciel, leur union étant essentielle à la création de l'humanité. Horus, souvent représenté avec une tête de faucon, symbolisait le pouvoir royal et la protection, étant lié à la souveraineté des pharaons. Ces deux divinités montrent comment les Égyptiens percevaient le monde à travers une interaction entre les forces terrestres et célestes.",
         "paragraphe6" => "Enfin, la déesse Sekhmet, la lionne de la guerre, et le dieu Set, associé à la violence et à la tempête, complètent cette galerie de divinités. Sekhmet était vénérée pour sa capacité à apporter la guerre et la guérison, tandis que Set représentait le chaos et la lutte. Leur dualité illustre la complexité de la pensée égyptienne, où même les aspects sombres de l'existence avaient leur place dans l'équilibre de la vie. Ensemble, ces divinités et le principe de Maât formaient un système de croyances interconnecté, influençant profondément la culture et la société égyptiennes.",
-        "picture" => "images/imagesArticles/img"
+        "picture" => "images/imgArticles/img"
     ],
     [
         "mot" => "divinités égyptiennes",
@@ -224,7 +224,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "D'autres divinités, telles qu'Anubis, le dieu des morts, et Bastet, la déesse de la protection, de la maternité et de la joie, enrichissent encore ce panthéon. Anubis, souvent représenté avec une tête de chacal, était chargé de la préservation des corps et de l'accompagnement des âmes dans l'au-delà. Bastet, quant à elle, était représentée comme une femme avec une tête de lionne ou de chat, symbolisant à la fois la douceur et la férocité, soulignant le rôle des femmes dans la société égyptienne.",
         "paragraphe5" => "Les dieux Geb, le dieu de la terre, et Horus, le dieu du ciel, sont également des figures centrales de la mythologie égyptienne. Geb et Nut (la déesse du ciel) étaient souvent représentés comme un couple complémentaire, représentant la terre et le ciel, leur union étant essentielle à la création de l'humanité. Horus, souvent représenté avec une tête de faucon, symbolisait le pouvoir royal et la protection, étant lié à la souveraineté des pharaons. Ces deux divinités montrent comment les Égyptiens percevaient le monde à travers une interaction entre les forces terrestres et célestes.",
         "paragraphe6" => "Enfin, la déesse Sekhmet, la lionne de la guerre, et le dieu Set, associé à la violence et à la tempête, complètent cette galerie de divinités. Sekhmet était vénérée pour sa capacité à apporter la guerre et la guérison, tandis que Set représentait le chaos et la lutte. Leur dualité illustre la complexité de la pensée égyptienne, où même les aspects sombres de l'existence avaient leur place dans l'équilibre de la vie. Ensemble, ces divinités et le principe de Maât formaient un système de croyances interconnecté, influençant profondément la culture et la société égyptiennes.",
-        "picture" => "images/imagesArticles/img"
+        "picture" => "images/imgArticles/img"
     ],
     [
         "mot" => "voyage",
@@ -235,7 +235,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "Le voyage touristique, qui vise le plaisir et la découverte, a des racines anciennes, souvent attribuées à l'Europe du XVIIe siècle. Ce phénomène, connu sous le nom de « Grand Tour », était pratiqué par la noblesse et reflétait un intérêt croissant pour l'exploration de nouveaux horizons. Cependant, avec la rapidité croissante des transports, le monde semble se rétrécir, laissant moins de place à la surprise du voyageur. Ce sentiment de déjà-vu est exacerbé par la cartographie moderne et la disponibilité d'informations sur les destinations.",
         "paragraphe5" => "Les implications énergétiques et environnementales des voyages sont préoccupantes. L'augmentation des déplacements rapides et motorisés pose des défis en termes de consommation des ressources et d'émissions de gaz à effet de serre. Cela a conduit à l'émergence du concept de « tourisme responsable », qui vise à réduire l'impact environnemental des voyages tout en favorisant une prise de conscience écologique parmi les voyageurs.",
         "paragraphe6" => "Enfin, les voyages peuvent parfois être entravés par des considérations juridiques. Dans certains pays, des restrictions sur la circulation des citoyens ou l'entrée des étrangers sont mises en place pour prévenir les migrations massives. Cela nécessite souvent des documents spécifiques comme des passeports, tandis que les « sans papiers » risquent d'être renvoyés chez eux. Dans ce contexte, on peut aussi évoquer le paradoxe du grand-père, une réflexion fascinante sur les voyages dans le temps, qui interroge la possibilité de modifier le passé sans créer de contradictions logiques. Selon cette idée, agir dans le passé pourrait entraîner des réalités alternatives, suggérant que les voyages dans le temps pourraient ouvrir des perspectives infinies sans affecter notre présent.",
-        "picture" => "images/imagesArticles/img"
+        "picture" => "images/imgArticles/img"
     ],
     
     

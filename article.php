@@ -148,11 +148,15 @@ if ($mot) {
             </div>
         </nav>
     </header>
-
     <main class="container" style="margin-top: 100px">
         <?php if ($article): ?>
             <h1 id="article-title"><?php echo htmlspecialchars($article[0]['mot']); ?></h1>
             <article class="content">
+            <?php if (!empty($article[0]['picture'])): ?>
+                    <img id="article-image" src="<?php echo htmlspecialchars($article[0]['picture']); ?>" alt="Image de l'article">
+                <?php else: ?>
+                    <p>Aucune image disponible</p>
+                <?php endif; ?>
                 <p id="paragraph1"><?php echo !empty($article[0]['paragraphe1']) ? $article[0]['paragraphe1'] : ''; ?></p>
                 <br />
                 <p id="paragraph2"><?php echo !empty($article[0]['paragraphe2']) ? $article[0]['paragraphe2'] : ''; ?></p>
@@ -164,11 +168,6 @@ if ($mot) {
                 <p id="paragraph5"><?php echo !empty($article[0]['paragraphe5']) ? $article[0]['paragraphe5'] : ''; ?></p>
                 <br />
                 <p id="paragraph6"><?php echo !empty($article[0]['paragraphe6']) ? $article[0]['paragraphe6'] : ''; ?></p>
-                <?php if (!empty($article[0]['picture'])): ?>
-                    <img id="article-image" src="<?php echo htmlspecialchars($article[0]['picture']); ?>" alt="Image de l'article">
-                <?php else: ?>
-                    <p>Aucune image disponible</p>
-                <?php endif; ?>
             </article>
         <?php else: ?>
             <p>Aucun article trouvé pour le mot '<?php echo htmlspecialchars($mot); ?>'.</p>

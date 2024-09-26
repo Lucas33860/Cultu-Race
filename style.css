@@ -301,11 +301,14 @@ main {
   margin-top: 40px;
 }
 
-/* Styles pour l'image centrale */
-.article-image {
-  text-align: center;
-  margin: 20px 0;
+
+#article-image {
+  display: block; /* Change l'image pour qu'elle se comporte comme un bloc */
+  width: 500px; /* Largeur de l'image */
+  height: 500px; /* Hauteur de l'image */
+  margin: 20px auto; /* Centrage horizontal */
 }
+
 
 .definition{
   font-size: 16px;
@@ -323,7 +326,7 @@ main {
 }
 /* Titre  */
 h1 {
-  padding: 50px;
+  padding: 10px;
   text-align: center;
   font-size: 60px;
 }
