@@ -1,5 +1,5 @@
 <php>
-    <html lang="fr">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,8 +13,8 @@
             <img class="logo dp mbot-60" src="images/logo.png" alt="">
 
             <div class="d-flex flex-justify-content-center flex-align-items-center flex-column mtop-20 mbot-40">
-            <p class="lose">YOU Win !</p>
-            <p class="objectif">Le mot était bien : Moteur</p>
+            <p class="lose">YOU Lose !</p>
+            <p class="objectif">Le mot était : Moteur</p>
             </div>
 
             <!-- fil d'ariane -->
