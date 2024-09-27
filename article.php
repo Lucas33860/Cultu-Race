@@ -143,7 +143,7 @@ if ($mot) {
             </div>
             <div class="d-flex flex-align-items-center mright-20">
                 <form method="POST">
-                    <button class="btn-check" type="submit" name="bouton" value="true">Validé</button>
+                    <button class="btn-check" type="submit" name="bouton" value="true">Valider</button>
                 </form>
             </div>
         </nav>

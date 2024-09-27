@@ -1,5 +1,17 @@
 <?php
 include 'insert_data.php';
+$motFin = 'paradoxe du grand-père';
+$motdebut = 'karma';
+
+function getDefByMot($motfin)
+{
+    global $db;
+    $result = sql_select('Article', 'def', "mot = '" . trim($motfin) . "'");
+    // Retourne la première définition trouvée, ou une chaîne vide si aucune définition n'est trouvée
+    return $result ? $result[0]['def'] : '';
+}
+
+$defMotFin = getDefByMot($motFin);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -37,20 +49,26 @@ include 'insert_data.php';
         <div
           class="d-flex flex-justify-content-center flex-align-items-center flex-column mtop-20 mbot-40"
         >
-          <p class="objectif">You start with :</p>
-          <p class="objectif">Your goal :</p>
+        <p class="objectif">You start with : <?php echo($motdebut); ?></p>
+        </div>
+        <div class="d-flex flex-justify-content-center flex-align-items-center goal ">
+        <p class="objectif">Your goal : <br> <p class="yourGoalDef"><?php echo($defMotFin); ?></p> </p>
         </div>
 
         <button class="btn" onclick="showPseudoAndRedirect()">Start</button>
 
         <script>
-          function showPseudoAndRedirect() {
-            showPseudo();
-            var pseudo = document.getElementById("pseudo").value;
-            if (pseudo) {
-              window.location.href = "article.php?mot=" + "Karma";
+            function showPseudoAndRedirect() {
+                showPseudo(); // Affiche le pseudo saisi
+                var pseudo = document.getElementById("pseudo").value;
+
+                if (pseudo) {
+                    // Utilisation de la variable PHP $motdebut dans JavaScript
+                    var motdebut = "<?php echo $motdebut; ?>";
+                    // Redirige vers article.php avec le mot de début en paramètre
+                    window.location.href = "article.php?mot=" + encodeURIComponent(motdebut);
+                }
             }
-          }
         </script>
 
         <div id="pseudo-display" class="mtop-20" style="display: none">

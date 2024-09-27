@@ -94,7 +94,7 @@ $articles = [
         "mot" => "Khonsou",
         "def" => "Voyageur lunaire, Guérisseur et Gardien nocturne, un dieu de la fertilité, et un dieu de la vengeance juste.",
         "paragraphe1" => "Khonsou ou Chons signifie ‘voyageur’ ou ‘celui qui traverse’, en référence à la lune qui traverse le ciel chaque nuit. En égyptien ancien, Khonsou se traduit par ‘Wanderer’ = ‘errant’, ce qui symbolise le mouvement à travers les cieux.",
-        "paragraphe2" => "Il incarne les pouvoirs lunaires et le passage du temps. Sa mission est d'accompagner et protéger ceux qui voyage dans la nuit, tout en agissant comme guérisseur. 
+        "paragraphe2" => "Il incarne les pouvoirs lunaires et le passage du temps. Sa mission est d'accompagner et protéger ceux qui voyagent dans la nuit, tout en agissant comme guérisseur. 
     <br> 
     Gardien des humains contre les dangers invisibles, il veille également sur la fertilité des champs et apporte une ‘vengeance juste’, en protégeant les pharaons et en punissant leurs ennemis.",
         "paragraphe3" => "Khonsou, divinité égyptienne, est souvent représenté comme un enfant pour symboliser sa jeunesse et sa pureté, avec une tresse sur le côté de sa tête, un motif typique des enfants royaux dans l'art égyptien. Symbolisant son innocence et son héritage divin, indiquant sa croissance spirituelle ou physique.
@@ -112,7 +112,7 @@ $articles = [
     <br> La lune est généralement perçue comme une force qui influence la nature et les rythmes humains.
     <br> Mais elle apparaît au cinéma dans la science-fiction comme le film ‘Le voyage dans la Lune’.",
         "paragraphe6" => "",
-        "picture" => "images/imgArticles/imgN.png"
+        "picture" => "images/imgArticles/imgKhonsou.svg"
     ],
     [
         "mot" => "Egypte",
@@ -179,7 +179,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         'paragraphe4' => "Pour parler d'un véhicule de tourisme, les termes « automobiles » et « voiture » peuvent être utilisés, toutefois, selon la réglementation du secteur, des définitions parfois différentes ont été utilisées, notamment dans la convention de Vienne sur la circulation routière. Dans les accords internationaux, la catégorie de véhicule qui se rapproche le plus de la voiture est la catégorie M1.",
         'paragraphe5' => "Le terme « véhicule automobile » est plus large que le terme « voiture automobile », il couvre l'ensemble des véhicules motorisés d'au moins quatre roues. Ainsi, dès 1956, Chapelain note que « De par leur destination, les véhicules automobiles sont classés en : voitures de tourisme ; véhicules utilitaires ; véhicules spéciaux. »",
         'paragraphe6' => "En raison de sa large diffusion et de son usage dans les milieux les plus variés, la voiture automobile est aujourd'hui appelée par de nombreux noms familiers, comme « auto », « bagnole », ou « char » en Amérique du Nord francophone, et argotiques, comme « tacot », « caisse », « tire », « guimbarde », « chignole », « charrette » en Europe, ainsi que « minoune » au Canada. L'usage limite l'emploi du terme automobile aux véhicules possédant quatre roues, ou plus rarement trois ou six roues, de dimensions inférieures à celle des autobus et des camions, mais englobe parfois les camionnettes. Bien qu'étant des « véhicules automobiles », les motocyclettes ne sont pas habituellement classées dans cette catégorie.",
-        'picture' => "images/imgArticles/imgVoiture.png"
+        'picture' => "images/imgArticles/imgVoiture.svg"
     ],
     [
         "mot" => "Fordisme",
@@ -213,7 +213,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "D'autres divinités, telles qu'Anubis, le dieu des morts, et Bastet, la déesse de la protection, de la maternité et de la joie, enrichissent encore ce panthéon. Anubis, souvent représenté avec une tête de chacal, était chargé de la préservation des corps et de l'accompagnement des âmes dans l'au-delà. Bastet, quant à elle, était représentée comme une femme avec une tête de lionne ou de chat, symbolisant à la fois la douceur et la férocité, soulignant le rôle des femmes dans la société égyptienne.",
         "paragraphe5" => "Les dieux Geb, le dieu de la terre, et Horus, le dieu du ciel, sont également des figures centrales de la mythologie égyptienne. Geb et Nut (la déesse du ciel) étaient souvent représentés comme un couple complémentaire, représentant la terre et le ciel, leur union étant essentielle à la création de l'humanité. Horus, souvent représenté avec une tête de faucon, symbolisait le pouvoir royal et la protection, étant lié à la souveraineté des pharaons. Ces deux divinités montrent comment les Égyptiens percevaient le monde à travers une interaction entre les forces terrestres et célestes.",
         "paragraphe6" => "Enfin, la déesse Sekhmet, la lionne de la guerre, et le dieu Set, associé à la violence et à la tempête, complètent cette galerie de divinités. Sekhmet était vénérée pour sa capacité à apporter la guerre et la guérison, tandis que Set représentait le chaos et la lutte. Leur dualité illustre la complexité de la pensée égyptienne, où même les aspects sombres de l'existence avaient leur place dans l'équilibre de la vie. Ensemble, ces divinités et le principe de Maât formaient un système de croyances interconnecté, influençant profondément la culture et la société égyptiennes.",
-        "picture" => "images/imgArticles/img"
+        "picture" => "images/imgArticles/imgDiviniteEgyptienne.svg"
     ],
     [
         "mot" => "divinités égyptiennes",
@@ -224,7 +224,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "D'autres divinités, telles qu'Anubis, le dieu des morts, et Bastet, la déesse de la protection, de la maternité et de la joie, enrichissent encore ce panthéon. Anubis, souvent représenté avec une tête de chacal, était chargé de la préservation des corps et de l'accompagnement des âmes dans l'au-delà. Bastet, quant à elle, était représentée comme une femme avec une tête de lionne ou de chat, symbolisant à la fois la douceur et la férocité, soulignant le rôle des femmes dans la société égyptienne.",
         "paragraphe5" => "Les dieux Geb, le dieu de la terre, et Horus, le dieu du ciel, sont également des figures centrales de la mythologie égyptienne. Geb et Nut (la déesse du ciel) étaient souvent représentés comme un couple complémentaire, représentant la terre et le ciel, leur union étant essentielle à la création de l'humanité. Horus, souvent représenté avec une tête de faucon, symbolisait le pouvoir royal et la protection, étant lié à la souveraineté des pharaons. Ces deux divinités montrent comment les Égyptiens percevaient le monde à travers une interaction entre les forces terrestres et célestes.",
         "paragraphe6" => "Enfin, la déesse Sekhmet, la lionne de la guerre, et le dieu Set, associé à la violence et à la tempête, complètent cette galerie de divinités. Sekhmet était vénérée pour sa capacité à apporter la guerre et la guérison, tandis que Set représentait le chaos et la lutte. Leur dualité illustre la complexité de la pensée égyptienne, où même les aspects sombres de l'existence avaient leur place dans l'équilibre de la vie. Ensemble, ces divinités et le principe de Maât formaient un système de croyances interconnecté, influençant profondément la culture et la société égyptiennes.",
-        "picture" => "images/imgArticles/img"
+        "picture" => "images/imgArticles/imgDiviniteEgyptienne.svg"
     ],
     [
         "mot" => "voyage",
@@ -235,7 +235,7 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
         "paragraphe4" => "Le voyage touristique, qui vise le plaisir et la découverte, a des racines anciennes, souvent attribuées à l'Europe du XVIIe siècle. Ce phénomène, connu sous le nom de « Grand Tour », était pratiqué par la noblesse et reflétait un intérêt croissant pour l'exploration de nouveaux horizons. Cependant, avec la rapidité croissante des transports, le monde semble se rétrécir, laissant moins de place à la surprise du voyageur. Ce sentiment de déjà-vu est exacerbé par la cartographie moderne et la disponibilité d'informations sur les destinations.",
         "paragraphe5" => "Les implications énergétiques et environnementales des voyages sont préoccupantes. L'augmentation des déplacements rapides et motorisés pose des défis en termes de consommation des ressources et d'émissions de gaz à effet de serre. Cela a conduit à l'émergence du concept de « tourisme responsable », qui vise à réduire l'impact environnemental des voyages tout en favorisant une prise de conscience écologique parmi les voyageurs.",
         "paragraphe6" => "Enfin, les voyages peuvent parfois être entravés par des considérations juridiques. Dans certains pays, des restrictions sur la circulation des citoyens ou l'entrée des étrangers sont mises en place pour prévenir les migrations massives. Cela nécessite souvent des documents spécifiques comme des passeports, tandis que les « sans papiers » risquent d'être renvoyés chez eux. Dans ce contexte, on peut aussi évoquer le paradoxe du grand-père, une réflexion fascinante sur les voyages dans le temps, qui interroge la possibilité de modifier le passé sans créer de contradictions logiques. Selon cette idée, agir dans le passé pourrait entraîner des réalités alternatives, suggérant que les voyages dans le temps pourraient ouvrir des perspectives infinies sans affecter notre présent.",
-        "picture" => "images/imgArticles/img"
+        "picture" => "images/imgArticles/imgVoyage.svg"
     ],
     
     
