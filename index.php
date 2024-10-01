@@ -1,7 +1,20 @@
 <?php
 include 'insert_data.php';
-$motFin = 'paradoxe du grand-père';
-$motdebut = 'karma';
+
+$mots = [
+    "voyage", "divinités égyptiennes", "divinité égyptienne", "Fordisme", "voiture", 
+    "Yakuza", "Japon", "Sakazuki", "Egypte", "Khonsou", "Toyotisme", "Pays", 
+    "paradoxe du grand-père", "Maât", "tuk-tuks", "Inde", "Karma"
+];
+
+// Sélectionner un mot aléatoire pour le mot de fin
+$motFin = $mots[array_rand($mots)];
+
+// Sélectionner un mot de départ différent du mot de fin
+do {
+    $motdebut = $mots[array_rand($mots)];
+} while ($motdebut === $motFin); // Répète jusqu'à ce que les mots soient différents
+
 
 function getDefByMot($motfin)
 {

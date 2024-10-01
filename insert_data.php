@@ -192,18 +192,6 @@ Il n'est pas permis de tuer un Katagari ( Une personne ne faisant pas partie des
          "paragraphe6" => "Ford met en avant les avantages matériels offerts à ses ouvriers, les encourageant même à épargner pour acheter leur propre Ford T. Bien que révolutionnaire, le fordisme sera plus tard critiqué pour son manque de flexibilité, menant à l'émergence du toyotisme, un modèle plus agile et centré sur l'amélioration continue, mieux adapté aux marchés en évolution.",
          "picture" => "images/imgArticles/imgFordisme.jpg"],
 
-    // Ajoutez d'autres articles ici si nécessaire
-    [
-        'mot' => 'Netflix',
-        'def' => 'L’un des pionniers du streaming',
-        'paragraphe1' => 'Netflix est l’un des pionniers du streaming.',
-        'paragraphe2' => 'Il propose une large bibliothèque de films et séries.',
-        'paragraphe3' => 'Les utilisateurs peuvent binge-watch des saisons entières.',
-        'paragraphe4' => 'Netflix produit également ses propres contenus originaux.',
-        'paragraphe5' => 'Les plans d’abonnement varient en fonction de la qualité.',
-        'paragraphe6' => 'Des options hors ligne sont disponibles pour les abonnés.',
-        'picture' => 'images/imgArticles/imgNetflix.png'
-    ],
     [
         "mot" => "divinité égyptienne",
         "def" => "L'Égypte ancienne est célèbre pour son panthéon riche et varié de divinités, chacune ayant des rôles spécifiques dans la cosmologie égyptienne. Ces divinités étaient souvent associées à des éléments naturels, des concepts abstraits ou des fonctions sociétales.",
